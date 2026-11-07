@@ -1,0 +1,30 @@
+# «Добрый садик» — частный детский сад в Иркутске
+# Сайт открыт для поисковых систем и ИИ-ассистентов (Алиса/Нейро, ChatGPT, Claude, Perplexity, Gemini),
+# чтобы сад попадал в их ответы на вопросы родителей.
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# Яндекс: склейка страниц с UTM-метками и рекламными параметрами
+User-agent: Yandex
+Allow: /
+Disallow: /404.html
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid&fbclid&_openstat /
+
+# ИИ-ассистенты и генеративный поиск — явное разрешение
+User-agent: YandexAdditional
+User-agent: YandexAdditionalBot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://dobryi-sadik.ru/sitemap.xml

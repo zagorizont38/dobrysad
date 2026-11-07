@@ -1,0 +1,14 @@
+{
+  "name": "Добрый садик — частный детский сад в Иркутске",
+  "short_name": "Добрый садик",
+  "description": "Эколого-эстетическое воспитание и Монтессори в малых группах до 15 детей. Николов Посад, Иркутский район.",
+  "lang": "ru",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FAF5EF",
+  "theme_color": "#FAF5EF",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
